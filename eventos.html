@@ -28,7 +28,7 @@
     <fieldset>
     <form>
       Evento
-      <select name= "eventos">
+      <select name= "eventos" required>
         <option> -- Selecione --</option>
         <option> Voe sem asas</option>
         <option> Festa junina</option>
@@ -38,29 +38,31 @@
 
     <fieldset>   
     <legend>Informações de acesso</legend><br>
-    Usuário <input name="usuario"><br><br> 
-    Senha <input type= "password" name="senha" ><br><br>
-    Confirme a senha <input type= "password" name="confirmarsenha" >
+    Usuário <input name="usuario" required><br><br> 
+    Senha <input type= "password" name="senha" required><br><br>
+    Confirme a senha <input type= "password" name="confirmarsenha" required>
     </fieldset>
 
     <fieldset>
     <legend>Informações pessoais</legend>
-    Nome completo <input name="nomecompleto"><br><br> 
-    E-mail <input type="email" name="email"><br><br> 
-    Celular <input type="tel" name="celular"> (99) 99999-9999<br><br> 
+    Nome completo <input name="nomecompleto" required><br><br> 
+    E-mail <input type="email" name="email" required><br><br> 
+    Celular <input type="tel" name="celular" required> (99) 99999-9999<br><br> 
     <fieldset>    
     <legend>Sexo</legend> <br>
-    Masculino <input value="Masculino" type="radio" name="sexo">
+    Masculino <input value="Masculino" type="radio" name="sexo" >
     Feminino <input value="Feminino" type="radio" name="sexo">
     <br><br>
     </fieldset>
-    Data de nascimento <input type="date" name="datanasc"><br><br>
-    Cor favorita <input type="color" name="cor"><br><br>
-    Perfil no Github <input type="link" name="github">
-    <input type="submit" name="inscrever">
-    <input type="reset" name="limpar">
+    Data de nascimento <input type="date" name="datanasc" required><br><br>
+    Cor favorita <input type="color" name="cor" required><br><br>
+    Perfil no Github <input type="link" name="github" required>
     </form>
     </fieldset>
+    <br><input type="submit" name="inscrever" >
+    <input type="reset" name="limpar" >
+    <br>
+
         
     <br>
     <a href = 'https://www.facebook.com/ifsppirituba'>
