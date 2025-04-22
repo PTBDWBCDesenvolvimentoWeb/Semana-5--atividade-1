@@ -1,4 +1,5 @@
-
+<!DOCTYPE html>
+<html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -23,10 +24,9 @@
     
     <img src= 'https://github.com/DWBA4/dwba4_semana_imagens/blob/master/Logo.jpg?raw=true'/><br/>
     <h2><strong> Inscreva-se </strong></h2>
-    
-    <div>
+
+    <fieldset>
     <form>
-      <p>
       Evento
       <select name= "eventos">
         <option> -- Selecione --</option>
@@ -34,69 +34,41 @@
         <option> Festa junina</option>
         <option> Semana de tecnologia</option>
       </select>
-      </p>
     </form>
-    </div>  
-    
-    <div>
+    </fieldset>
+
+    <fieldset>   
     <form>
-    <p>
-    Informações de acesso<br><br>
+    <legend>Informações de acesso</legend>
     Usuário <input name="usuario"><br><br> 
     Senha <input type= "password" name="senha" ><br><br>
     Confirme a senha <input type= "password" name="confirmarsenha" >
-    </p>
     </form>
-    </div>
-    
-    <div>
+    </fieldset>
+
+    <fieldset>
     <form>
-    <p>
-    Informações pessoais<br><br>
+    <legend>Informações pessoais</legend>
     Nome completo <input name="nomecompleto"><br><br> 
     E-mail <input type="email" name="email"><br><br> 
     Celular <input type="tel" name="celular"> (99) 99999-9999<br><br> 
-    </p>
-    <div class=sexo>
-    <p>
-    Sexo <br>
+    <fieldset>    
+    <legend>Sexo</legend> <br>
     Masculino <input value="Masculino" type="radio" name="sexo">
     Feminino <input value="Feminino" type="radio" name="sexo">
     <br><br>
-    </p>
-    </div>
-    <p>
+    </fieldset>
     Data de nascimento <input type="date" name="datanasc"><br><br>
     Cor favorita <input type="color" name="cor"><br><br>
     Perfil no Github <input type="link" name="github">
-    <input type="button" name=inscrever> 
-    </p>
+    <input type="submit" name="inscrever">
+    <input type="reset" name="limpar">
     </form>
-    </div>
+    </fieldset>
+        
     <br>
-    
     <a href = 'https://www.facebook.com/ifsppirituba'>
         <img src= 'https://github.com/DWBA4/dwba4_semana_imagens/blob/master/facebook.png?raw=true' 
         width = 50px /> <br/>
     </a>
       <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</p>
-    
-<style>
-div {
-  border-width: 1px;
-  border-style: solid ;
-  margin: 10px 0;
-}
-
-p{
-  padding:0 5px;
-  margin-left: 10px;
-  margin-top: 5px;
-}
-
-.sexo{
-  margin:15px;
-}
-</style>
-
-</body>
